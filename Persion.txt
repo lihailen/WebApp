@@ -1,0 +1,3 @@
+class Persion {
+	private int age;
+}
