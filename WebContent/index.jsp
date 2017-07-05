@@ -3,12 +3,17 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link rel="stylesheet" type="text/css" href="./css/bootstrap/bootstrap-theme.css">
+<link rel="stylesheet" type="text/css" href="./css/bootstrap/bootstrap.min.css">
 <title>Home</title>
 </head>
 
-<body>
-	<form action="sysServlet">
-		<input type="submit"value="Submit"/>
+<body style="margin-top: 10px;margin-left: 25px;">
+	<form action="cookieServlet">
+		<button type="submit" class="btn btn-default">CookieServlet</button>
+	</form>
+	<form action="loginServlet">
+		<button type="submit" class="btn btn-default">LoginServlet</button>
 	</form>
 </body>
 </html>
