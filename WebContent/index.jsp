@@ -15,5 +15,8 @@
 	<form action="loginServlet">
 		<button type="submit" class="btn btn-default">LoginServlet</button>
 	</form>
+	<form action="sessionServlet">
+		<button type="submit" class="btn btn-default">SessionServlet</button>
+	</form>
 </body>
 </html>
